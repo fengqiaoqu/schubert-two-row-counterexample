@@ -1,0 +1,38 @@
+{
+  "prepared_on": "2026-10-22",
+  "source_conjecture": {
+    "arxiv": "2411.19735v1",
+    "url": "https://arxiv.org/abs/2411.19735v1",
+    "location": "Conjecture 1.3, PDF page 2"
+  },
+  "research_artifacts": {
+    "original_proof": {
+      "sha256": "d3fa1326ff195e54f3e931fe3e245e7679d4deee30f9f13cc8094b9f0db26a08",
+      "bytes": 8128
+    },
+    "original_verifier": {
+      "sha256": "fbddca9d31f080178b1952b4a01d314fde50edcb40edd623f381fee15ac3330b",
+      "bytes": 14416
+    },
+    "original_certificate": {
+      "sha256": "f3c61adacb99e25efb1bc36f530b8c3361057ca0b69b6087548f1ef6e45b3200",
+      "bytes": 46843
+    },
+    "source_preprint_pdf": {
+      "sha256": "62fd05680ed20995644008833e849a27e5bfa3009fc218606f8b5909590b0c66",
+      "bytes": 186787
+    }
+  },
+  "transformation": [
+    "Chinese introduction and full proof reorganized for repository reading",
+    "English summary prepared",
+    "Verifier adapted to separate archived and generated outputs",
+    "No third-party full text redistributed"
+  ],
+  "claims": {
+    "infinite_family_proved": true,
+    "priority_established": false,
+    "external_human_review_established": false,
+    "general_schubert_rule_solved": false
+  }
+}

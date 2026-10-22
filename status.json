@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-22",
+  "title": "An infinite counterexample family to the Tao-Zheng two-row Schubert coefficient bound",
+  "target": {
+    "source": "arXiv:2411.19735v1",
+    "location": "Conjecture 1.3, PDF page 2",
+    "claimed_bound": "c_{w,tau}^v <= n2-k"
+  },
+  "result": {
+    "kind": "infinite counterexample family",
+    "parameter_range": "every integer m>=6",
+    "coefficient": "m(m-3)/2",
+    "conjectured_upper_bound": "m",
+    "first_family_member_coefficient": 9,
+    "first_family_member_upper_bound": 6,
+    "proofs": ["Littlewood-Richardson ballot-word count", "Jacobi-Trudi and two Pieri steps"],
+    "finite_group_boundary_checked": true
+  },
+  "verification": {
+    "arithmetic": "exact arbitrary-precision integers",
+    "python": "3.10+",
+    "dependencies": "standard library only",
+    "family_members_checked": "m=6,...,20",
+    "separate_k6_instance": ["SSYT polynomial construction", "720 alternant terms", "21 divided differences"],
+    "internal_ai_review": true,
+    "external_human_peer_review": "not established",
+    "formal_proof_assistant_verification": "not performed"
+  },
+  "priority_established": false,
+  "original_author_endorsement": "not established",
+  "general_schubert_positive_counting_rule_solved": false,
+  "repository": "https://github.com/fengqiaoqu/schubert-two-row-counterexample"
+}
